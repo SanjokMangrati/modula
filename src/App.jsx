@@ -22,6 +22,11 @@ import {
 } from "./pages";
 import "./App.css";
 import { useStateContext } from "./contexts/ContextProvider";
+import { registerLicense } from "@syncfusion/ej2-base";
+
+registerLicense(
+	"Ngo9BigBOggjHTQxAR8/V1NCaF1cXGNCf1FpRmJGdld5fUVHYVZUTXxaS00DNHVRdkdnWXdcc3VRQ2hZUUZxWEU="
+);
 
 const App = () => {
 	const { activeMenu } = useStateContext();
