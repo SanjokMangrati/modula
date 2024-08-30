@@ -3,6 +3,8 @@
 
 **Modulo** is an admin dashboard UI built using React and Syncfusion components. This project was developed to deepen my understanding of frontend development and to explore the capabilities of Syncfusion's UI components. Modulo serves as a reference project, allowing me to quickly reuse Syncfusion components in future projects by simply copying and pasting the relevant code.
 
+**Check it out at** https://modula-sanjok-mangratis-projects.vercel.app
+
 ## Table of Contents
 
 - [Overview](#overview)
