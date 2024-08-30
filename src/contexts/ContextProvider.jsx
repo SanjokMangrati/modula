@@ -30,10 +30,10 @@ export const ContextProvider = ({ children }) => {
 	};
 
 	const handleClick = (clicked) => {
-		setIsClicked({
-			...initialState,
-			[clicked]: true,
-		});
+		setIsClicked((prev) => ({
+			...prev,
+			[clicked]: !prev[clicked],
+		}));
 	};
 
 	return (
@@ -52,6 +52,8 @@ export const ContextProvider = ({ children }) => {
 				setColor,
 				themeSettings,
 				setThemeSettings,
+				setCurrentColor,
+				setCurrentMode,
 			}}
 		>
 			{children}

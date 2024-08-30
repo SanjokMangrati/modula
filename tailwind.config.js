@@ -41,7 +41,7 @@ export default {
 			},
 			backgroundImage: {
 				"hero-pattern":
-					"url('https://plus.unsplash.com/premium_vector-1682309085673-3f99339397f4?q=80&w=1800&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')",
+					"url('https://img.freepik.com/free-vector/hand-drawn-flat-groovy-psychedelic-background_23-2149074391.jpg?t=st=1725040635~exp=1725044235~hmac=5d64d340ce37a68fdca45ee5e5b9c15929d2919330571282b9833357f3a00cbc&w=1380')",
 			},
 		},
 	},
