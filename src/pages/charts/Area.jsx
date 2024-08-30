@@ -9,7 +9,7 @@ import {
 	Legend,
 } from "@syncfusion/ej2-react-charts";
 
-import { ChartsHeader } from "../../components";
+import { Header } from "../../components";
 import {
 	areaCustomSeries,
 	areaPrimaryXAxis,
@@ -19,7 +19,7 @@ import {
 const Area = () => {
 	return (
 		<div className="m-4 md:m-10 mt-24 p-10 bg-white rounded-3xl">
-			<ChartsHeader category="Area" title="Inflation Rate in percentage" />
+			<Header category="Area" title="Inflation Rate in percentage" />
 			<div className="w-full">
 				<ChartComponent
 					id="charts"
