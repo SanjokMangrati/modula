@@ -1,14 +1,9 @@
-import { BsCurrencyDollar } from "react-icons/bs";
 import { GoDotFill } from "react-icons/go";
-import { Stacked, PieChart, Button, SparkLine } from "../components";
-import {
-	earningData,
-	SparklineAreaData,
-	ecomPieChartData,
-} from "../data/dummy";
+import { Stacked, Button, SparkLine } from "../components";
+import { earningData, SparklineAreaData } from "../data/dummy";
 import { useStateContext } from "../contexts/ContextProvider";
 
-const ECommerce = () => {
+const Ecommerce = () => {
 	const { currentColor } = useStateContext();
 
 	return (
@@ -110,7 +105,7 @@ const ECommerce = () => {
 								/>
 							</div>
 						</div>
-						<div className="">
+						<div>
 							<Stacked width="320px" height="360px" />
 						</div>
 					</div>
@@ -120,4 +115,4 @@ const ECommerce = () => {
 	);
 };
 
-export default ECommerce;
+export default Ecommerce;
