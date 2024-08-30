@@ -41,7 +41,7 @@ export default {
 			},
 			backgroundImage: {
 				"hero-pattern":
-					"url('https://demos.wrappixel.com/premium-admin-templates/react/flexy-react/main/static/media/welcome-bg-2x-svg.25338f53.svg)",
+					"url('https://img.freepik.com/free-vector/hand-drawn-flat-groovy-psychedelic-background_23-2149074391.jpg?t=st=1725040635~exp=1725044235~hmac=5d64d340ce37a68fdca45ee5e5b9c15929d2919330571282b9833357f3a00cbc&w=1380')",
 			},
 		},
 	},
