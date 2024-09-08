@@ -83,4 +83,6 @@ src/
 - **Syncfusion Components**: Gaining hands-on experience with Syncfusion's UI components to improve future project efficiency.
 - **Reusable Code**: Developing reusable components that can be easily integrated into other projects.
 
+*Inspired
+
  
